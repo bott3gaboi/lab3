@@ -1,0 +1,5 @@
+f = open('user_input.txt', 'a')
+f.write(input("Введите текст: ") + "\n")
+f.close()
+f = open('user_input.txt', 'r')
+print(f.read())
